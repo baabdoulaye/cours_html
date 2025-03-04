@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url("/img/rdr2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  background-color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+}
+#intro {
+  text-align: center;
+  padding: 50px;
+  margin-top: 500px;
+  background-color: red;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  border-radius: 20px;
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+a {
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+  text-decoration: none;
+  padding: 50px;
+  transition: 0.5s;
+}
+a:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
